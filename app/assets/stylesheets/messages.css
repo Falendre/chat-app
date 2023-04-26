@@ -1,5 +1,6 @@
 .wrapper {
     display: flex;
+    position: relative;
 }
 
 
@@ -51,6 +52,9 @@
 .chat {
     background-color: #FFFFFF;
     width: calc(100vw - 300px);
+    position: absolute;
+    top: 0%;
+    right: 0%;
 }
 
 .chat-header {
